@@ -1,0 +1,16 @@
+{
+  "name": "wa-video-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp bot (Baileys) inayodownload video kwa yt-dlp",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "better-sqlite3": "^11.3.0",
+    "pino": "^9.4.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
